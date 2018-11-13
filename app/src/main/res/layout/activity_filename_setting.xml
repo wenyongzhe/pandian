@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_select_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/export_file_prefix"
+                android:textColor="@color/gray_text"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_prefix_name"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="10dip"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:singleLine="true"
+                android:textColor="@color/gray_text" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/view" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="63dip"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="5dip"
+            android:text="@string/naming_of_merge_export"
+            android:textColor="#f3731c"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/view" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="63dip"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="5dip"
+            android:text="@string/naming_of_split_export"
+            android:textColor="#f3731c"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/view" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dip"
+            android:paddingTop="5dip"
+            android:text="请选择导出文件的命名方式："
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/listview_select_name"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dip"
+            android:layout_weight="1"
+            android:background="@color/gray2"
+            android:divider="@color/gray1"
+            android:listSelector="#00000000"
+            android:visibility="invisible" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dip"
+            android:background="@color/title_bg"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/btn_select_yellow"
+                android:paddingBottom="10dip"
+                android:paddingLeft="30dip"
+                android:paddingRight="30dip"
+                android:paddingTop="10dip"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize24" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

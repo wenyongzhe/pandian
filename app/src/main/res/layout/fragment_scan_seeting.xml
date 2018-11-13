@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+<!--         <CheckBox
+            android:id="@+id/cancelAllScan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="全部取消" /> -->
+
+        <Button
+            android:id="@+id/cancelAllScan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:text="全部取消"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="4"
+            android:text="(请注意:最多只能选择5项)"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/displayOnline"
+        android:layout_width="181dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:text="设置单行显示"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:text="序号"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:text="显示选项"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </TextView>
+
+        <TextView
+            android:id="@+id/editText13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:text="是否单行显示"
+            android:textSize="15sp" >
+
+            <requestFocus />
+        </TextView>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.90" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/goodsNo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.45"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="测试" />
+
+                <TextView 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="1"
+                    android:gravity="center|left"
+                    />
+                <TextView
+                    android:text="货号"
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/goodsOnLineDisplay"
+                    android:textSize="15sp"
+                    android:text=" "
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/style"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.45"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="测试" />
+
+                <TextView 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="2"
+                    android:gravity="center|left"
+                    />
+                <TextView
+                    
+                    android:text="款式"
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/styleDisplay"
+                    android:textSize="15sp"
+                    android:text=" "
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/Name"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.45"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="测试" />
+
+                <TextView 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="3"
+                    android:gravity="center|left"
+                    />
+                <TextView
+                    
+                    android:text="名称"
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/NameNoDisplay"
+                    android:textSize="15sp"
+                    android:text=""
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/colorIdId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.45"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="测试" />
+
+                <TextView 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="4"
+                    android:gravity="center|left"
+                    />
+                <TextView
+                    
+                    android:text="颜色ID"
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/colorIdIdDisplay"
+                    android:textSize="15sp"
+                    android:text=""
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/colorId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.45"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="测试" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center|left"
+                    android:text="5" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="颜色"
+                    
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/colorIdDisplay"
+                    android:textSize="15sp"
+                    android:text=""
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/sizeIdID"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.45"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="测试" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center|left"
+                    android:text="6" />
+
+                <TextView
+                    
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="尺码ID"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:textSize="15sp"
+                    android:text=" "
+                    android:id="@+id/sizeIdIDDisplay"
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/sizeId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.45"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="测试" />
+
+                <TextView 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="7"
+                    android:gravity="center|left"
+                    />
+                <TextView
+                    
+                    android:text="尺码"
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/sizeIdDisplay"
+                    android:textSize="15sp"
+                    android:text=""
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/bigSort"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.45"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="测试" />
+
+                <TextView 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="8"
+                    android:gravity="center|left"
+                    />
+                <TextView
+                    
+                    android:text="大类"
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/bigSortDisplay"
+                    android:textSize="15sp"
+                    android:text=" "
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/smallSort"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.45"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="测试" />
+
+                <TextView 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="9"
+                    android:gravity="center|left"
+                    />
+                <TextView
+                    
+                    android:text="小类"
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/smallSortDisplay"
+                    android:textSize="15sp"
+                    android:text=""
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/quantity"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.45"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="测试" />
+
+                <TextView 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="10"
+                    android:gravity="center|left"
+                    />
+                <TextView
+                    
+                    android:text="库存"
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/quantityDisplay"
+                    android:textSize="15sp"
+                    android:text=""
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <CheckBox
+                    android:id="@+id/price"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.45"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:text="测试" />
+
+                <TextView 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:text="11"
+                    android:gravity="center|left"
+                    />
+                <TextView
+                    
+                    android:text="价格"
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:id="@+id/priceDisplay"
+                    android:textSize="15sp"
+                    android:text=""
+                    android:gravity="center"
+                    android:layout_weight="1" 
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+
+        <Button
+            android:layout_gravity="right"
+            android:id="@+id/back"
+            android:layout_marginLeft="195dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back" />
+
+    </LinearLayout>
+
+</LinearLayout>

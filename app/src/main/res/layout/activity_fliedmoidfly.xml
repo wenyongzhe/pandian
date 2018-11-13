@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:gravity="center_vertical"
+        android:background="@color/title_bg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_daochu_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="导出字段"
+            android:textColor="@color/gray_text"
+            android:textSize="22sp" />
+
+
+        <TextView
+            android:id="@+id/tv_daoru_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="导出字段"
+            android:textColor="@color/gray_text"
+            android:textSize="22sp" />
+
+        <!-- <LinearLayout
+            android:id="@+id/ll_barcode_setting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+
+            <TextView
+                android:id="@+id/tv_barcode_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="条码拆分"
+                android:textColor="@color/gray_text"
+                android:textSize="20sp" />
+        </LinearLayout> -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/view_scan_setting"
+            android:layout_width="0dp"
+            android:layout_height="2dip"
+            android:layout_weight="1"
+            android:background="@color/view" />
+
+        <View
+            android:id="@+id/view_length_setting"
+            android:layout_width="0dp"
+            android:layout_height="2dip"
+            android:layout_weight="1"
+            android:background="@color/view" />
+
+        <!-- <View
+            android:id="@+id/view_barcode_setting"
+            android:layout_width="0dp"
+            android:layout_height="2dip"
+            android:layout_weight="1"
+            android:background="@color/view" /> -->
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/show_setting_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green" >
+    </RelativeLayout>
+
+</LinearLayout>

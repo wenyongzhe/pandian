@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">销邦盘点</string>
+    <string name="date_settings">日期时间设置</string>
+    <string name="corp_style">企业类型</string>
+    <string name="corp_choice">请选择企业类型</string>
+    <string name="ok">确定</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="go">直接进入</string>
+    <string name="resume">重新选择</string>
+    <string name="back">返回</string>
+    <string name="submit">确认</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="reselect">重选</string>
+    <string name="hint_text">请输入条码</string>
+    <string name="exit">系统退出</string>
+    <string name="pass_admin">请输入管理员密码：</string>
+    <string name="data_select">请选择更新的基础数据</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">销邦科技，欢迎您！</string>
+    <string name="bill_no">单        号:</string>
+    <string name="unit">往来单位:</string>
+    <string name="med_type">药品类型：</string>
+    <string name="scan_num">已扫描：</string>
+    <string name="build">新建</string>
+    <string name="message">信息</string>
+    <string name="communicate">通讯</string>
+    <string name="allbill">全部出入库单</string>
+    <string name="selelect_ordertype">请选择单据类型</string>
+    <string name="selelect_returncause">请选择退货原因</string>
+    <string name="selelect_papertype">请选择证件类型</string>
+    <string name="query">搜索</string>
+    <string name="loading">正在加载数据,请稍候......</string>
+    <string name="input_bill_number">请输入单号</string>
+    <string name="dialog_title">提示</string>
+    <string name="delete_success">删除成功！</string>
+    <string name="delete_fail">删除失败！</string>
+    <string name="setting">设置</string>
+    <string name="upload">上传</string>
+    <string name="clear">清除</string>
+    
+    <string name="no_choose">没有选择</string>
+    <string name="choosed">已经选择</string>
+    <string name="cannot_move">不可移动</string>
+    <string name="notification">操作提示 </string>
+    <string name="test">基础资料中无此条码,是否录入?</string>
+
+    <!-- 升级 -->
+    <string name="system_update">系统升级</string>
+    <string name="update_setting">升级配置</string>
+    <string name="updating">执行更新</string>
+    <string name="version">当前版本号</string>
+    <string name="update_url">更新URL地址</string>
+    <string name="enterprise_id">企业ID</string>
+    <string name="update_prompt">更新下载文件前是否提示</string>
+    <string name="main_app">主程序</string>
+    <string name="main_app_launch">主程序为更新成功后系统启动的应用程序</string>
+    <string name="empty_url">更新URL地址不能为空！</string>
+    
+    <string name="empty_password_old">旧密码不能为空。</string>
+    <string name="empty_password_new">新密码不能为空。</string>
+    <string name="password_inconformity">两新密码不一致。</string>
+    <string name="empty_password_tips">必须选择密码提示问题。</string>
+    <string name="empty_password_answer">密码提示答案不能为空，以便找回答案。</string>
+    <string name="assword_modification_success">密码修改成功。</string>
+    <string name="assword_modification_fail">密码修改失败。</string>
+    <string name="password_old_error">旧密码不正确。</string>
+    
+       <!-- 标题 -->
+    <string name="main_menu">主菜单</string>
+    <string name="document_scan">扫描单据</string>
+    <string name="goods_scan">盘点扫描</string>
+    <string name="goods_query">单品查询</string>
+    <string name="modified_quantity">修改数量</string>
+    <string name="summary_statistics">汇总统计</string>
+    <string name="query_title">查询</string>
+    <string name="query_inventory">盘点查询</string>
+    <string name="query_outstock">出库查询</string>
+    <string name="query_instock">入库查询</string>
+    <string name="scan_sequence_query">扫描顺序查询</string>
+    <string name="basic_data_query">基础数据查询</string>
+    <string name="inventory_export">数据导出</string>
+    <string name="inventory_export2">盘点导出</string>
+    <string name="export_inventory">导出数据</string>
+    <string name="delete_data">删除数据</string>
+    <string name="data_delete">数据删除</string>
+    <string name="data_import">数据导入</string>
+    <string name="system_settings">系统设置</string>
+    <string name="parameter_settings">参数设置</string>
+    <string name="other_settings">其他设置</string>
+    <string name="field_name_settings">字段名称设置</string>
+    <string name="export_import_settings">导入导出</string>
+    <string name="system_update_settings">系统升级</string>
+    <string name="naming_method_select">命名方式选择</string>	<!-- 命名方式选择-->
+    <string name="export_directory_select">导出目录选择</string>	<!-- 导出目录选择-->
+    <string name="import_file_select">导入文件选择</string>	<!-- 导入文件选择--> 
+    <!-- wyz 2017.4.27 -->
+    <string name="tv_store_in">入库</string>
+    <string name="tv_store_out">出库</string>
+    <string name="bar_store_in">入库单据</string>
+    <string name="tv_store_in_num">已入库数量</string>
+    <string name="bar_store_out">出库单据</string>
+    <string name="tv_store_out_num">已出库数量</string>
+    <string name="instock_no_inventory_data">无入库数据！</string><!-- 无数据！ -->
+	<string name="outstock_no_inventory_data">无出库数据！</string><!-- 无数据！ -->
+     
+    <!--  弹窗提示 -->
+	<string name="warning">警告 </string><!-- 警告 -->
+	<string name="barCode_not_empty">条码不能为空 !</string><!-- 条码不能为空 -->
+	<string name="barCode_not_exist">无此条码!</string><!-- 无此条码 -->
+	<string name="no_inventory_data">无盘点数据！</string><!-- 无盘点数据！ -->
+	<string name="no_inventory_detailed_data">无盘点明细数据！</string><!-- 无盘点明细数据！ -->
+	<string name="no_inventoried_goods">不存在该已盘点货品!</string><!-- 不存在该已盘点货品！ -->
+	<string name="enter_password">请输入管理员密码</string><!-- 请输入管理员密码！ -->
+	<string name="not_modified_empty">不能修改为空</string><!-- 不能修改为空！ -->
+	<string name="modify_successed">修改成功</string>
+	<string name="error">错误</string><!-- 错误 -->
+	<string name="modify">修改</string><!-- 修改 -->
+	<string name="file_not_found">未找到数据文件，&#010;请将文件放到指定目录!</string><!-- 未找到数据文件，\n请将文件放到指定目录！-->
+	<string name="exit_application">是否退出应用程序？</string><!-- 是否退出应用程序？-->
+	<string name="modify_password">修改密码 </string><!-- 修改密码 -->
+	<string name="enter_quantity">输入数量</string><!-- 输入数量-->
+	<string name="please_enter_quantity">请输入数量</string><!-- 请输入数量-->
+	<string name="modify_quantity">修改数量</string><!-- 修改数量-->
+	<string name="modify_quantity_after">修改后数量</string><!-- 修改后数量-->
+	<string name="quantity_not_null">数量不能为空!</string><!-- 数量不能为空!-->
+	<string name="digit_system_one">小数点后位数系统设置为只能输入1位，请输入至多1位。</string><!-- 小数点后位数系统设置为只能输入1位，请输入至多1位。-->
+	<string name="digit_system_two">小数点后位数系统设置为只能输入2位，请输入至多2位。</string><!-- 小数点后位数系统设置为只能输入2位，请输入至多2位。-->
+	<string name="decimal_error">小数输入错误 !</string><!-- 小数输入错误 -->
+	<string name="quantity_error">数量输入有误，请检查。</string><!-- 数量输入有误，请检查。 -->
+	<string name="password_empty">密码不能为空。</string><!-- 密码不能为空。 -->
+	<string name="password_error">密码错误，请重新输入 !</string><!-- 密码错误，请重新输入 -->
+	<string name="enter_administrator">恭喜您启用超级管理员权限成功。\n\n确定后进入系统设置模块。</string><!-- 恭喜您启用超级管理员权限成功。\r\n\r\n确定后进入系统设置模块。 -->
+	<string name="enter_administrator_scan_good">恭喜您启用超级管理员权限成功。</string>
+	<string name="is_root_directory">已经是根目录!</string><!-- 已经是根目录! -->
+	<string name="confirm_again">请再次确认要保存吗？</string><!-- 请再次确认要保存吗？-->
+	<string name="sure_save">请确认是否要保存当前配置并隐藏相关的配置功能？\n请注意：保存配置功能后将不能再行配置,同时保存配置时会删除当前系统的所有盘点数据。</string><!-- 请确认是否要保存当前配置并隐藏相关的配置功能？\r\n\r\n请注意：保存配置功能后将不能再行配置,同时保存配置时会删除当前系统的所有盘点数据。 -->
+	<string name="scan_settings">扫描设置</string><!-- 扫描设置 -->	
+	<string name="please_wait">请稍等</string><!-- 请稍等-->	
+	
+	<!-- 长度限制 -->
+	<string name="length_settings">长度设置</string><!-- 长度设置-->
+	<string name="length_limit_mode">长度限制方式：</string><!-- 长度限制方式：-->
+	<string name="length_equal">等于限制（为0表示不设置该项）：</string><!-- 等于限制（为0表示不设置该项）：-->
+	<string name="range_limit">范围限制：</string><!-- 范围限制：-->
+	<string name="small_value">小值:</string><!-- 小值:-->
+	<string name="large_value">大值:</string><!-- 大值:-->
+	<string name="intercept_save_code">截取或保留条码：</string><!-- 截取或保留条码：-->
+	<string name="reserved_digit">保留位数</string><!-- 保留位数-->
+		
+		<!-- 其他设置 -->
+	<string name="setting1">设置系统门店编号：</string><!-- 设置系统门店编号： -->	
+	<string name="setting2">系统客户名称设置：</string><!-- 系统客户名称设置： -->	
+	<string name="setting3">自动弹出时间设置：</string><!-- 自动弹出时间设置： -->	
+	<string name="setting4">盘点是否关闭WIFI：</string><!-- 盘点是否关闭WIFI： -->	
+	<string name="setting5">删除数据管理单位： </string><!-- 删除数据管理单位： -->	
+	<string name="setting6">删除数据密码控制：</string><!-- 删除数据密码控制： -->	
+	<string name="setting7">退出系统密码控制：</string><!-- 退出系统密码控制： -->	
+	<string name="setting8">管理员 密 码 修 改：</string><!-- 管理员 密 码 修 改： -->	
+	<string name="setting9">修改密码</string><!-- 修改密码 -->	
+		<!-- 导入导出控制-->
+	<string name="control1">是否导出表头：</string><!-- 是否导出表头： -->	
+	<string name="control2">导出扫描顺序：</string><!-- 导出扫描顺序： -->	
+	<string name="control3">导出管理单位：</string><!-- 导出管理单位： -->	
+	<string name="control4">导出文件类型：</string><!-- 导出文件类型： -->	
+	<string name="control5">导出时是否合并导出：</string><!-- 导出时是否合并导出： -->	
+	<string name="control6">导出盘点单文件命名方式：</string><!-- 导出盘点单文件命名方式： -->	
+	<string name="control7">数量拆分导出：</string><!-- 数量拆分导出： -->	
+	<string name="control8">资料导入方式：</string><!-- 资料导入方式： -->	
+	<string name="control9">导出方式：</string><!-- 导出方式： -->	
+	<string name="option">选项</string><!-- 选项 -->	
+	<string name="display_item_selection">显示项选择 </string><!-- 显示项选择 -->	
+	<string name="display_item_note">请注意：最多只能选择5项 </string><!-- 请注意：最多只能选择5项 -->	
+	<string name="cancel_all">全部取消 </string><!-- 全部取消 -->	
+		<!-- 扫描设置-->
+	<string name="scan1">条码验证方式：</string><!-- 条码验证方式： -->	
+	<string name="scan2">启用唯一条码：</string><!-- 启用唯一条码： -->	
+	<string name="scan3">是否输入数量：</string><!-- 是否输入数量： -->	
+	<string name="scan4">修改数量密码：</string><!-- 修改数量密码： -->	
+	<string name="scan5">扫描显示方式：</string><!-- 扫描显示方式： -->	
+	<string name="scan6">内部或外部码：</string><!-- 内部或外部码： -->	
+	<string name="scan7">扫描显示行数：</string><!-- 扫描显示行数： -->	
+		<!-- 修改密码-->
+	<string name="old_password">旧  密  码：</string><!-- 旧  密  码： -->	
+	<string name="enter_old_password">请输入旧密码</string><!-- 请输入旧密码 -->	
+	<string name="new_password">新  密  码：</string><!-- 新  密  码： -->	
+	<string name="enter_new_password">请输入新密码 </string><!-- 请输入新密码 -->	
+	<string name="confirm_password">确认新密码：</string><!-- 确认新密码：-->	
+	<string name="confirm_password_again">再次确认新密码</string><!-- 再次确认新密码-->	
+	<string name="password_prompt">密码提示</string><!-- 密码提示-->	
+	<string name="question">提示问题：</string><!-- 提示问题：-->	
+	<string name="answer">答        案：</string><!-- 答        案：-->	
+	<string name="enter_answer">请输入答案</string><!-- 请输入答案-->	
+		<!-- 扫描单据 -->	
+	<string name="cannot_empty">不能为空。 </string><!-- 不能为空。 -->
+	<string name="document_empty"> 为空！是否继续添加当前盘点单据？</string><!-- 为空！是否继续添加当前盘点单据？ -->
+	<string name="please_enter">请输入  </string><!-- 请输入 -->
+	<string name="newly_added">新增 </string><!-- 新增 -->
+	<string name="document_exists">已经存在该盘点单据（确定续盘）？</string><!-- 已经存在该盘点单据（确定续盘） -->
+	<string name="document_ruku_exists">已经存在该入库单据（确定续盘）？</string>
+	<string name="document_chuku_exists">已经存在该出库单据（确定续盘）？</string>
+	<!-- 盘点扫描-->
+	<string name="number_tv">编号:</string><!-- 编号:-->
+	<string name="location_tv">货位:</string><!-- 货位:-->
+	<string name="barcode_tv">条码：</string><!-- 条码：-->
+	<string name="cut">消减</string><!-- 消减-->
+	<string name="name_tv">名称：</string><!-- 名称：-->
+	<string name="color_tv">颜色：</string><!-- 颜色：-->
+	<string name="size_id_tv">尺码ID：</string><!-- 尺码ID：-->
+	<string name="major_tv">大类：</string><!-- 大类：-->
+	<string name="small_tv">小类：</string><!-- 小类：-->
+	<string name="price_tv">价格：</string><!-- 价格：-->
+	<string name="size_tv">尺码：</string><!-- 尺码：-->
+	<string name="stock_tv">库存：</string><!-- 库存：-->
+	<string name="no_tv">货号：</string><!-- 货号：-->
+	<string name="girard_tv">款号：</string><!-- 款号：-->
+	<string name="color_id_tv">颜色ID：</string><!-- 颜色ID：-->
+	<string name="number_quantity_tv">编号数量：</string><!-- 编号数量：-->
+	<string name="location_quantity_tv">货位数量：</string><!-- 货位数量：-->
+	<string name="cut_change_tv">消减切换</string><!-- 消减切换-->
+	<string name="had_inventory_quantity">已盘数量：</string><!-- 已盘数量：-->
+	<string name="enter_number">请输入编号</string><!-- 请输入编号-->
+	<string name="enter_location">请输入货位</string><!-- 请输入货位-->
+	<string name="add_number_location">新增编号</string><!-- 新增编号 wyz-->
+	<string name="quantity_tv">数量：</string><!-- 数量：-->
+	<string name="display_options">显示选项</string><!--显示选项-->
+	
+	<!-- 更新 -->
+	<string name="version1">版本</string><!-- 版本-->
+	<string name="versionV">软件版本：V</string><!-- 软件版本：V-->
+	<string name="version_latest">当前版本为最新</string><!-- 当前版本为最新-->
+	<string name="version_new">有新版本，是否下载更新？</string><!-- 有新版本，是否下载更新？-->
+	<string name="version_downloading">正在下载，请稍候...</string><!-- 正在下载，请稍候... -->
+	<string name="version_Checking">正在检查版本，请稍候...</string><!-- 正在检查版本，请稍候... -->
+	<string name="version_downloading_failed">下载文件失败！</string><!-- 下载文件失败！ -->
+	<string name="version_user_has_downloading">用户信息今天已下载，是否重新下载？</string><!-- 用户信息今天已下载，是否重新下载？ -->
+	<string name="version_warehouse_has_downloading">库房信息今天已下载，是否重新下载？</string><!-- 库房信息今天已下载，是否重新下载？ -->
+	<string name="not_registered">盘点机未注册成功,请稍后尝试！</string><!-- 盘点机未注册成功,请稍后尝试！ -->
+	<string name="network_timeout">联网超时 </string><!-- 联网超时 -->
+	<string name="network_failed">网络连接失败，您可继续尝试上报</string><!-- 网络连接失败，您可继续尝试上报 -->
+	<string name="version_error">出错了:</string><!-- 出错了: -->
+	<string name="version_package_error">需要更新的包名跟程序包名不一致！</string><!-- 需要更新的包名跟程序包名不一致！-->
+	<string name="version_needs_updated">系统需要更新，是否现在更新？</string><!-- 系统需要更新，是否现在更新？-->
+	<string name="version_parsing_failed">解析文件失败！</string><!-- 解析文件失败！-->
+	<string name="version_server_failed">解析服务端应答消息出错！</string><!-- 解析服务端应答消息出错！-->
+	<string name="download_failed">下载失败</string><!-- 下载失败-->
+		<!-- 导入 -->
+	<string name="setting_before_import">完成导入设置才可以导入资料！</string><!-- 完成导入设置才可以导入资料！ -->
+	<string name="configure_import_items">请先配置导入项。</string><!-- 请先配置导入项。 -->
+	<string name="exception_when_underlying_data">预处理基础资料表时发生异常。</string><!-- 预处理基础资料表时发生异常。 -->
+	<string name="import_data_success">导入基础资料成功！</string><!-- 导入基础资料成功！ -->
+	<string name="data_not_found">未找到数据文件，请将文件放到指定目录！</string><!-- 未找到数据文件，请将文件放到指定目录！-->
+	<string name="import_error">导入出错，导入基础资料有重复记录。</string><!-- 导入出错，导入基础资料有重复记录。-->
+	<string name="import_error_columns">导入列数与系统设置列数不一致！导入失败！</string><!-- 导入列数与系统设置列数不一致！导入失败！-->
+	<string name="import_error_content">导入出错，请检查文件格式或数据内容等是否正确。</string><!-- 导入出错，请检查文件格式或数据内容等是否正确。-->
+	<string name="import_data">正在导入数据,请稍等...</string><!-- 正在导入基础资料,请稍等...-->
+	<string name="not_configured">您还未配置完成，只有配置完成并保存后才能进行扫描相关工作。</string><!-- 您还未配置完成，只有配置完成并保存后才能进行扫描相关工作。-->
+	<string name="import_basic_data">是否要导入基础资料?</string><!-- 是否要导入基础资料? -->
+	<string name="offline_import">离线本地导入</string><!-- 离线本地导入 -->
+	<string name="import_btn">导入</string><!-- 导入 -->
+	<string name="scan_display">扫描显示</string><!-- 扫描显示-->
+	<string name="import_export_control">导入导出控制</string><!-- 导入导出控制-->
+	<string name="column_number">列   数：</string><!-- 列   数：-->
+	<string name="separator">分隔符:</string><!-- 分隔符:-->
+	<string name="modifier">修饰符：</string><!-- 修饰符：-->
+	<string name="including_quantity">包括数量</string><!-- 包括数量-->
+	<string name="header">表头：</string><!-- 表头：-->
+		<!-- 导出 -->
+	<string name="select_all">全选</string><!-- 全选 --> 
+	<string name="export">导出 </string><!-- 导出 --> 
+	<string name="deselect_all">取消全选</string><!-- 取消全选 -->
+	<string name="export_not_saved">导出设置未保存,请保存导出设置!</string><!-- 导出设置未保存,请保存导出设置!-->
+	<string name="no_data_available">没有可选的数据</string><!-- 没有可选的数据-->
+	<string name="select_one_record">至少勾选一条记录!</string><!-- 至少勾选一条记录!-->
+	<string name="no_exportable_data">没有可导出的数据!</string><!-- 没有可导出的数据!-->
+	<string name="multiselect_no_merge">已设置扫描顺序导出，多选(除全选外)不能合并导出！</string><!-- 已设置扫描顺序导出，多选(除全选外)不能合并导出！-->
+	<string name="export_data">是否要导出所选盘点资料?</string><!-- 是否要导出所选盘点资料?-->
+	<string name="export_data_success">数据导出成功！</string><!-- 数据导出成功！-->
+	<string name="export_data_failed">数据导出失败,原因：</string><!-- 数据导出失败,原因：-->
+	<string name="export_file_prefix">导出文件前缀：</string><!-- 导出文件前缀：-->
+	<string name="naming_of_merge_export">合并导出默认命名方式：前缀_合并导出_年月日时分</string><!-- 合并导出默认命名方式：前缀_合并导出_年月日时分-->
+	<string name="naming_of_split_export">拆分导出默认命名方式：前缀_编号+(_货位号)_年月日时分</string><!-- 拆分导出默认命名方式：前缀_编号+(_货位号)_年月日时分-->
+	<string name="exporting_inventory">正在导出盘点数据，请稍候</string>
+	<string name="exporting_instock">正在导出入库数据，请稍候</string>
+	<string name="exporting_outstock">正在导出出库数据，请稍候</string>
+		<!-- 数据删除 -->
+    <string name="delete_data_success">数据删除成功!</string><!-- 数据删除成功! -->
+    <string name="delete_failed">删除失败。</string><!-- 删除失败。 -->
+    <string name="delete_data_failed">删除时出现错误，请检查或联系您的供应商。</string><!-- 删除时出现错误，请检查或联系您的供应商。 -->
+    <string name="no_data_delete">没有可删除的数据!</string><!-- 没有可删除的数据 -->
+    <string name="delete_data_exception">删除数据时发生异常!</string><!-- 删除数据时发生异常! -->
+    <string name="delete_all_data_exception">删除全部数据时发生异常!</string><!-- 删除全部数据时发生异常! -->
+    <string name="delete_confirm">是否要删除数据？\n请注意：删除为永久删除，删除的数据将不可恢复!</string><!-- 是否要删除数据？\r\n\r\n请注意：删除为永久删除，删除的数据将不可恢复! -->
+    <string name="delete">删除</string><!-- 删除 -->
+    <string name="all_delete">全部删除</string><!-- 全部删除 -->
+  		<!--  商品扫描 -->
+  	<string name="system_import_error">系统导入系统数据配置错误！</string><!-- 系统导入系统数据配置错误 -->	
+  	<string name="no_goods_query">不支持查询商品，请联系运营商！</string><!-- 不支持查询商品，请联系运营商！ -->	
+  	<string name="no_goods_scan">没有商品,请扫描 ！</string><!-- 没有商品,请扫描 -->	
+  	<string name="internal_scan_set">扫描内部码时,请在设置中设置“内部码”</string><!-- 扫描内部码时,请在设置中设置\"内部码\"-->
+  	<string name="no_unique_barcode">不存在所消减的唯一条码。</string><!-- 不存在所消减的唯一条码。-->	
+  	<string name="barcode_repeat">条码重复!</string><!-- 条码重复!-->	
+  	<string name="code_not_match_setting">条码长度与设置范围不符!</string><!-- 条码长度与设置范围不符!-->	
+  	<string name="code_not_in_data">基础资料中无此条码，是否录入？</string><!-- 基础资料中无此条码，是否录入？-->	
+  	<string name="inventory_failed_check">盘点数量处理失败，请检查或联系您的供应商！</string><!-- 盘点数量处理失败，请检查或联系您的供应商！-->	
+  	<string name="inventory_code_length">条码截取长度应小于条码长度！</string><!-- 条码截取长度应小于条码长度！-->	
+  	
+    <!-- Toast提示 -->
+    <string name="no_pertinent_data">没有相关数据！</string><!-- 没有相关数据！ -->
+    <string name="current_barcode_no__data">当前条码没有相关数据！</string><!-- 当前条码没有相关数据！ -->
+    <string name="or">或 </string><!-- 或 -->
+    <string name="select_import_mode">请选择导入方式</string><!-- 请选择导入方式 -->
+    <string name="loading_data">正在加载原单数据，请稍等...</string><!-- 正在加载原单数据，请稍等... -->
+    <string name="load_success">加载成功 </string><!-- 加载成功 -->
+    <string name="load_failed">加载失败</string><!-- 加载失败-->
+    <string name="last_data">本地数据最后更新的时间：</string><!-- 本地数据最后更新的时间：-->
+    <!-- ProgressDialog提示 -->
+    <string name="deleting_data">正在删除，请稍候...</string><!-- "正在删除，请稍候..." -->
+    <string name="saved_success">设置保存成功!</string><!-- 设置保存成功 -->
+    <string name="enter_prefix">请输入文件前缀!</string><!-- 请输入文件前缀 -->
+    <string name="have_selected">选择了</string><!-- 选择了 -->
+    
+   <!--  编辑框内的提示 -->
+   <string name="please_select">请选择 </string><!-- 请选择 -->
+   <string name="quantity">数量 :</string><!-- 数量 -->
+   
+   <!-- 布局 -->
+   <string name="style_code_length">款式码位长</string><!-- 款式码位长 -->
+   <string name="artNo_code_length">货号、码位长</string><!-- 货号、码位长 -->
+   <string name="style_code_separation">款式码分隔 </string><!-- 款式码分隔 -->
+   <string name="artNo_code_separation">货号、码分隔</string><!-- 货号、码分隔 -->
+   <string name="bar_code">条码</string><!-- 条码 -->
+   <string name="number">编号: </string><!-- 编号: -->
+   <string name="select_number">请选择编号 </string><!-- 请选择编号 -->
+   <string name="detail">明细</string><!-- 明细 -->
+   <string name="location">货位:</string><!-- 货位: -->
+   <string name="select_location">请选择货位</string><!-- 请选择货位 -->
+   <string name="bar_code_0">条码:</string><!-- 条码: -->
+   <string name="if_negative">(若为负数，是由大数改为小数的结果)</string><!-- (若为负数，是由大数改为小数的结果) -->
+   <string name="select_query_mode">请选择查询方式：</string><!-- 请选择查询方式： -->
+   <string name="number_query">编号查询</string><!-- 编号查询 -->
+   <string name="location_query">货位查询</string><!-- 货位查询 -->
+       
+    <!-- fragment -->
+    <string name="no_iv">无</string><!-- 无 -->
+    <string name="yes_iv">有 </string><!-- 有 -->
+    <string name="double_marks">双引号</string><!-- 双引号 -->
+    <string name="single_marks">单引号 </string><!-- 单引号 -->
+    <string name="export1">请选择导出项设置</string><!-- 请选择导出项设置 -->
+    <string name="export2">选择列数与导出项数量不一致</string><!-- 选择列数与导出项数量不一致 -->
+    <string name="export3">导出设置保存成功</string><!-- 导出设置保存成功 -->
+    
+ 	<!--    导出导出设置fragement -->
+    <string name="export4">导出表头</string><!-- 导出表头 -->
+    <string name="export5">不导出表头</string><!-- 不导出表头 -->
+    <string name="export6">不导出</string><!-- 不导出-->
+    <string name="export7">导出</string><!-- 导出 -->
+    <string name="export8">按编号导出 </string><!-- 按编号导出 -->
+    <string name="export9">按编号，货位导出</string><!-- 按编号，货位导出 -->
+    <string name="export10">txt文本文件</string><!-- txt文本文件 -->
+    <string name="export11">csv文件（以逗号分隔）</string><!-- csv文件（以逗号分隔） -->
+    <string name="export12">合并导出 </string><!-- 合并导出 -->
+    <string name="export13">不合并（分开导出 ）</string><!-- 不合并（分开导出 ）-->
+    <string name="export14">不拆分 </string><!-- 不拆分 -->
+    <string name="export15">拆分</string><!-- 拆分 -->
+    <string name="export16">全量导入（覆盖导入）</string><!-- 全量导入（覆盖导入） -->
+    <string name="export17">增量导入</string><!-- 增量导入 -->
+    <string name="export18">导出设置没保存成功</string><!-- 导出设置没保存成功 -->
+    <string name="export19">您当前设置导出文件类型为csv，但导出 分隔符不是逗号，继续保存吗？</string><!-- 您当前设置导出文件类型为csv，但导出 分隔符不是逗号，继续保存吗？-->
+    <string name="export20">\n请注意：当导出 文件类型为csv时，只有当分隔符是逗号时，导出文件才能正确地在电脑上的Excel里面打开。</string><!-- \r\n\r\n请注意：当导出 文件类型为csv时，只有当分隔符是逗号时，导出文件才能正确地在电脑上的Excel里面打开。 -->
+    <string name="export21">是否把导出分隔符改为逗号（，）？</string><!-- 是否把导出分隔符改为逗号（，）？ -->
+    <string name="export22">制表符已改为逗号（，）及设置保存成功</string><!-- 制表符已改为逗号（，）及设置保存成功 -->
+    <string name="export23">累加导出</string><!-- 累加导出 -->
+    <string name="export24">逐行导出</string><!-- 逐行导出-->
+     <string name="export25">Excel</string>
+    <!--    导入设置fragement -->
+    <string name="import1">请选择导入项设置 </string><!-- 请选择导入项设置 -->
+    <string name="import2">选择列数与导入项数量不一致 </string><!-- 选择列数与导入项数量不一致 -->
+    <string name="import3">导入设置保存成功</string><!-- 导入设置保存成功 -->
+    
+    <!--   长度fragement  -->
+    <string name="length1">不限制长度 </string><!-- 不限制长度 -->
+    <string name="length2">等于限制</string><!-- 等于限制 -->
+    <string name="length3">范围限制</string><!-- 范围限制-->
+    <string name="length4">不处理</string><!-- 不处理 -->
+    <string name="length5">截去条码后面位数 </string><!-- 截去条码后面位数 -->
+    <string name="length6">截去条码前面位数</string><!-- 截去条码前面位数 -->
+    <string name="length7">保留条码后面位数</string><!-- 保留条码后面位数-->
+    <string name="length8">保留条码前面位数</string><!-- 保留条码前面位数 -->
+    <string name="length9">截取位数:</string><!-- 截取位数: -->
+    <string name="length10">保留位数:</string><!-- 保留位数: -->
+    <string name="length11">长度不能为空，这样会无法进行扫描,请确认检查。</string><!-- 长度不能为空，这样会无法进行扫描,请确认检查。 -->
+    <string name="length12">所有长度不能同时都为零，这样会无法进行扫描,请确认检查</string><!-- 所有长度不能同时都为零，这样会无法进行扫描,请确认检查 -->
+    <string name="length13">小值或者大值不能为空，这样会无法进行扫描,请确认检查。</string><!-- 小值或者大值不能为空，这样会无法进行扫描,请确认检查。 -->
+    <string name="length14">小值不能大于大值，这样会无法进行扫描,请确认检查。</string><!-- 小值不能大于大值，这样会无法进行扫描,请确认检查。 -->
+    <string name="length15">小值和大值不能同时为0，这样会无法进行扫描,请确认检查。</string><!-- 小值和大值不能同时为0，这样会无法进行扫描,请确认检查。 -->
+    <string name="length16">保留位数不能为空，这样会无法进行扫描,请确认检查。</string><!-- 保留位数不能为空，这样会无法进行扫描,请确认检查。 -->
+    <string name="length17">选择了截取长度，截取长度必须大于0,请确认检查。</string><!-- 选择了截取长度，截取长度必须大于0,请确认检查。 -->
+    <string name="length18">\n如果不需要截取，请选择第一项“不处理”。</string><!-- \r\n\r\n如果不需要截取，请选择第一项“不处理”。 -->
+    <string name="length19">选择了保留长度，保留长度必须大于0,请确认检查。</string><!-- 选择了保留长度，保留长度必须大于0,请确认检查。 -->
+    <string name="length20">\n如果不需要保留，请选择第一项“不处理”。</string><!-- \r\n\r\n如果不需要保留，请选择第一项“不处理”。 -->
+    <string name="length21">保存该页配置成功。</string><!-- 保存该页配置成功。 -->
+    <!--   其他设置fragement  -->
+    <string name="other1">不弹出 </string><!-- 不弹出 -->
+    <string name="other2">弹出</string><!-- 弹出 -->
+    <string name="other3">是 </string><!-- 是 -->
+    <string name="other4">否</string><!-- 否 -->
+    <string name="other5">按编号删除 </string><!-- 按编号删除 -->
+    <string name="other6">按编号，货位删除</string><!-- 按编号，货位删除 -->
+    <string name="other7">不需要 </string><!-- 不需要 -->
+    <string name="other8">需要 </string><!-- 需要 -->
+    <string name="other9">不控制</string><!-- 不控制 -->
+    <string name="other10">控制</string><!-- 控制 -->
+    
+    <!--   扫描显示fragement  -->
+    <string name="display1">操作提示 </string><!-- 操作提示 -->
+    <string name="display2">不能同时选择货号和款式，请重新设置</string><!-- 不能同时选择货号和款式，请重新设置-->
+    <string name="display3">所选项目不能大于5</string><!-- 所选项目不能大于5 -->
+    <string name="display4">至少选择一项项目</string><!-- 至少选择一项项目-->
+    
+    <!--  ScanSettingFragment  -->
+    <string name="ssetting1">不验证 </string><!-- 不验证 -->
+    <string name="ssetting2">验证</string><!-- 验证 -->
+    <string name="ssetting3">提示</string><!-- 提示 -->
+    <string name="ssetting4">不启用 </string><!-- 不启用 -->
+    <string name="ssetting5">启用 </string><!-- 启用 -->
+    <string name="ssetting6">输入</string><!-- 输入 -->
+    <string name="ssetting7">不输入</string><!-- 不输入 -->
+    <string name="ssetting8">不需要</string><!-- 不需要 -->
+    <string name="ssetting9">需要</string><!-- 需要 -->
+    <string name="ssetting10">累加显示</string><!-- 累加显示 -->
+    <string name="ssetting11">逐行显示</string><!-- 逐行显示 -->
+    <string name="ssetting12">内部码 </string><!-- 内部码 -->
+    <string name="ssetting13">外部码</string><!-- 外部码 -->
+    <string name="ssetting14">显示行数不能为空,请确认检查</string><!-- 显示行数不能为空,请确认检查。 -->
+    <string name="ssetting15">显示行数不能小于1,请确认检查。</string><!-- 显示行数不能小于1,请确认检查。 -->
+    <string name="ssetting16">请注意：启用唯一码时不能启用“是否输入数量”的选项。</string><!-- 请注意：启用唯一码时不能启用“是否输入数量”的选项。 -->
+    <string name="ssetting17">扫描行数不能设置为空</string><!-- 扫描行数不能设置为空 -->
+    
+    <string name="ImportStr">外部码,内部码,货号,款式,名称,颜色ID,颜色,尺码ID,尺码,大类,小类,库存,价格</string><!-- 外部码,内部码,货号,款式,名称,颜色ID,颜色,尺码ID,尺码,大类,小类,库存,价格-->
+    <string name="ExportStr">门店编号,编号,货位,条码,货号,款式,名称,颜色ID,颜色,尺码ID,尺码,大类,小类,库存,价格,数量,时间</string><!-- 门店编号,编号,货位,条码,货号,款式,名称,颜色ID,颜色,尺码ID,尺码,大类,小类,库存,价格,数量,时间 -->
+    <string name="importDecaration">无,双引号</string><!-- 无,双引号-->
+    <string name="importDecaration2">无,双引号</string><!-- 无,双引号-->
+    <string name="separatorStr">制表符(空格(,(|(#(;($(~</string>
+     <string name="delet_by">按 删除</string><!-- 按 删除 -->
+    <string name="export_by">按导出</string><!-- 按导出 -->
+    
+    <string name="select_query_type">请选择查询类型：</string>
+    <string name="outstock_export">出库导出</string>
+    <string name="instock_export">入库导出</string>
+    <string name="inventory_delete">盘点删除</string>
+    <string name="outstock_delete">出库删除</string>
+    <string name="instock_delete">入库删除</string>
+    <string name="inventory_display">盘点</string>
+    <string name="outstock_display">出库</string>
+    <string name="instock_display">入库</string>
+    <string name="instock_sacn">入库扫描</string>
+    <string name="outstock_sacn">出库扫描</string>
+    
+    <string name="filename_inventory">盘点命名方式</string>
+    <string name="filename_instock">入库命名方式</string>
+    <string name="filename_outstock">出库命名方式</string>
+    <string name="bill_inventory">盘点单</string>
+    <string name="bill_instock">入库单</string>
+    <string name="bill_outstock">出库单</string>
+    
+     <!-- 扫描模式设置   20171128-->
+	<string name="pattern_settings">扫描模式</string>
+	<string name="pattern1">扫描模式：</string><!-- 扫描模式： -->	
+	<string name="pattern2">条码模式 </string><!-- 条码 -->	
+	<string name="pattern3">RFID模式</string><!-- RFID-->
+	<string name="pattern4">当前模式：</string><!-- RFID-->
+	<string name="pattern5">条码扫描模式。</string><!-- RFID-->
+	<string name="pattern6">RFID扫描模式。</string><!-- RFID-->
+	<string name="RFID_NOT_EXIST">存在不在基础资料内的RFID标签!请重新扫描！</string><!-- 无此条码 -->
+	<string name="operate_check">正在处理数据,请稍候</string>
+	<string name="RFID_HAS_EXIST">该RFID标签已存在</string>
+	<string name="Input_code_bad">导入错误</string>
+	<string name="import_and_export_instructions">说明：右侧的左边可以上下移动列表，右边可以拖动变换字段的位置。</string>
+
+    <!-- z字段名称设置   20181017-->
+    <string name="old_field">原字段名称：</string>
+    <string name="new_field">新字段名称：</string>
+    <string name="enter_new_field">请输入新的字段名称</string>
+    <string name="has_exists_field">已存在该字段名称，请重新输入</string>
+    <string name="import_base_field">外部码,内部码,</string>
+</resources>

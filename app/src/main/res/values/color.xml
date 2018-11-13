@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="home_text_color">#ff333333</color>
+    <color name="home_background">#ffffff</color>
+    <color name="login_background">#fffbc1</color>
+    <color name="home_background_backup">#fff7f9ff</color>
+    <color name="list_item_unfocused">#ffffffff</color>
+    <color name="bulue1">#157be0</color>
+    <color name="login_edit">#ff000000</color>
+    <color name="gray_text">#505050</color>
+    <color name="red_dark_text">#872c2c</color>
+    <color name="line_color">#bebdbd</color>
+    <color name="storeroom">#ff000000</color>
+    <color name="storeroom2">#a568c2</color>
+    <color name="list_item_white">#ffe9e9e9</color>
+    <color name="background">#e1e1e1</color>
+    <color name="light_white">#fffcfcfc</color>
+    <color name="list_item_pressed">#fff22fff</color>
+    <color name="list_item_selected">#fff33fff</color>
+    <color name="list_item_focused">#ffff44ff</color>
+    <color name="white">#ffffffff</color>
+    <color name="huise">#c4c2c7</color>
+    <color name="violet">#ff000000</color>
+    <color name="black">#ff000000</color>
+    <color name="title_yellow">#ec6c00</color>
+    <color name="title_bg">#ebebeb</color>
+    <color name="dialogcolor">#000000</color>
+    <color name="gainsboro">#ffdcdcdc</color>
+    <color name="lightgrey">#ffd3d3d3</color>
+    <color name="darkgray">#ffa9a9a9</color>
+    <color name="dimgrey">#ff696969</color>
+    <color name="grey4">#696969</color>
+    <color name="gray">#ff606060</color>
+    <color name="gray_bg">#d7d7d7</color>
+    <color name="gray1">#C0C0C0</color>
+    <color name="gray2">#DCDCDC</color>
+    <color name="steelblue">#ff4682b4</color>
+    <color name="red">#ffff0000</color>
+    <color name="red1">#ea3030</color>
+    <color name="red2">#fe0000</color>
+    <color name="blue2">#ff004676</color>
+    <color name="blue">#3a74d9</color>
+    <color name="view">#969696</color>
+    <color name="divider">#b4b4b4</color>
+    <color name="yellow">#f3731c</color>
+    
+    <color name="deep_sky_blue">#ff00bfff</color>
+    <color name="dodger_blue">#ff1e90ff</color>
+    <color name="orange">#ffff7800</color>
+    <color name="light_gray">#ffd3d3d3</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_mask">#55000000</color>
+    <color name="result_view">#55000000</color>
+    <color name="viewfinder_frame">#ff00bfff</color>
+    <color name="viewfinder_laser">#ff00ff00</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="deep_blue">#ff024677</color>
+    <color name="dark_red">#ffc55359</color>
+    <color name="qrpos_paid">#ff4883b4</color>
+    <color name="qrpos_wait_topay">#fff38e0a</color>
+    <color name="qrpos_expired">#ffb3b3b3</color>
+
+    <!-- add by fdl -->
+    <color name="green">#ff00ff00</color>
+    <color name="calc_div">#ff515151</color>
+    <color name="opacity85">#d8000000</color>
+    <color name="sliding_layer">#ffdfe1e8</color>
+    <color name="text_in_slidinglayer">#074035</color>
+    <color name="blue_black">#ff26495f</color>
+    
+    <color name="holo_red_light">#aaff4444</color>
+    <color name="holo_orange_light">#aaffbb33</color>
+    
+    <!-- 摘自开源项目 https://github.com/square/android-times-square -->
+    <color name="calendar_active_month_bg">#fff5f7f9</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="calendar_selected_day_bg">#ff379bff</color>
+    <color name="calendar_selected_range_bg">#ff96caff</color>
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_text_active">#ff778088</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#7f778088</color>
+    
+    <!-- add by fdl -->
+    <color name="color_black_333333">#ff333333</color>
+    <color name="color_grey_999999">#ff999999</color>
+    <color name="color_activity_green_bg">#ff4fc9b1</color>
+    
+    <!-- comm -->
+    <color name="activity_background">#ffffff</color>
+    <color name="fragment_background">#ffffff</color>
+    <color name="click_down">#efefef</color>
+
+</resources>

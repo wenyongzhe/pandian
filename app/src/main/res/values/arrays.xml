@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="upload">
+        <item>自动上传</item>
+        <item>手动上传</item>
+    </string-array>
+    <string-array name="count">
+        <item>修改</item>
+        <item>不修改</item>
+    </string-array>
+    
+   
+    <string-array name="validate">
+        <item>验证</item>
+        <item>不验证</item>
+    </string-array>
+    <string-array name="input">
+        <item>可输入</item>
+        <item>不可输入</item>
+    </string-array>
+    <!-- 单据类型 -->
+    <string-array name="ordertype">
+        <item>全部出入库单</item>
+        <item>全部入库单</item>
+        <item>全部出库单</item>
+        <item>采购入库</item>
+        <item>退货入库</item>
+        <item>调拨入库</item>
+        <item>生产入库</item>
+        <item>销售出库</item>
+        <item>退货出库</item>
+        <item>调拨出库</item>
+        <item>返工出库</item>
+        <item>销毁出库</item>
+        <item>抽检出库</item>
+        <item>直调出库</item>
+    </string-array>
+    <string-array name="returncause">
+        <item>破损</item>
+        <item>召回</item>
+        <item>滞销</item>
+        <item>过期失效</item>
+        <item>近效期</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="destroycause">
+        <item>破损</item>
+        <item>霉变</item>
+        <item>过期失效</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="ordertype_vaccine">
+        <item>全部出入库单</item>
+        <item>全部入库单</item>
+        <item>全部出库单</item>
+        <item>采购入库</item>
+        <item>退货入库</item>
+        <item>零售出库</item>
+        <item>领药出库</item>
+        <item>供应出库</item>
+        <item>疫苗接种</item>
+        <item>退货出库</item>
+        <item>销毁出库</item>
+        <item>抽检出库</item>
+    </string-array>
+    <string-array name="paperworktype">
+        <item>身份证</item>
+        <item>护照</item>
+        <item>军官证</item>
+        <item>医保卡</item>
+        <item>接种卡</item>
+        <item>学生证</item>
+        <item>其它</item>
+    </string-array>
+    
+    <string-array name="PasswordTips">
+        <item>您的门店编号是多少？</item>
+        <item>您的公司简称是什么？</item>
+        <item>您的公司所在地为？</item>
+        <item>您的公司创建日期是多少？</item>
+        <item>您的生日是多少？</item>
+        <item>您的英文名是什么？</item>
+        <item>您的手机号码是多少？</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,196 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="TitleBarBackground">
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="MyCustomTheme" parent="android:Theme">
+        <item name="android:windowTitleBackgroundStyle">@style/TitleBarBackground</item>
+        <item name="android:windowTitleSize">40dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+
+    <style name="MyDialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowFrame">@null</item>
+;!-- 边框 -->       
+                                                        <item name="android:windowIsFloating">true</item>
+;!-- 是否浮现在activity之上 -->   
+                                                        <item name="android:windowIsTranslucent">true</item>
+;!-- 半透明 -->      
+                                                        <item name="android:windowNoTitle">true</item>
+;!-- 无标题 -->    
+                                                        <item name="android:windowBackground">@android:color/transparent</item>
+;!-- 背景透明 -->       
+                                                        <item name="android:backgroundDimEnabled">true</item>
+;!-- 模糊 -->
+</style>
+
+    <style name="ListItem">
+        <item name="android:minHeight">?android:attr/listPreferredItemHeight</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:paddingTop">8dip</item>
+        <item name="android:paddingBottom">8dip</item>
+    </style>
+
+    <style name="Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="title_text_style">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:textColor">@drawable/tabs_btn_selector</item>
+        <item name="android:ellipsize">marquee</item>
+        <!-- <item name="android:layout_marginBottom">4dp</item> -->
+        <!-- <item name="android:layout_marginTop">4dp</item> -->
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="cusdom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="dialog_button" parent="@android:style/Widget.Button">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@drawable/dialog_btn_color</item>
+        <item name="android:background">@drawable/dialog_btn_bg</item>
+    </style>
+
+    <style name="cusdom_dialog_whitebg" parent="@style/cusdom_dialog">
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="keyboard_simple_text" parent="@android:style/TextAppearance">
+        <item name="android:textSize">28.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffeadbd1</item>
+    </style>
+
+    <style name="checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_selector</item>
+        <item name="android:paddingLeft">25.0dip</item>
+        <item name="android:maxHeight">10.0dip</item>
+    </style>
+    <!-- android times square use begin -->
+    <!--
+    <style name="CalendarTitle">
+        <item name="android:textSize">@dimen/calendar_text_medium</item>
+        <item name="android:textColor">@color/calendar_text_active</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CalendarCell">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CalendarCell.DayHeader">
+        <item name="android:textColor">@color/calendar_text_active</item>
+        <item name="android:textSize">@dimen/calendar_text_small</item>
+    </style>
+
+    <style name="CalendarCell.CalendarDate">
+        <item name="android:textSize">@dimen/calendar_text_medium</item>
+        <item name="android:background">@drawable/calendar_bg_selector</item>
+        <item name="android:textColor">@color/calendar_text_selector</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+
+
+
+
+
+
+    -->
+    <!-- android times square use end -->
+    <!--
+	<style name="AuthenticatorTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:dropDownListViewStyle">@style/mySpinnerStyle</item>
+    </style>
+
+
+
+
+
+
+
+
+
+    -->
+    <style name="mySpinnerStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- spinner -->
+  <style name="style_spinner" >
+  <item name="android:layout_width">0dip</item>
+  <item name="android:layout_height">match_parent</item>
+  <item name="android:layout_marginLeft">5dip</item>
+  <item name="android:layout_marginRight">15dip</item>
+  <item name="android:layout_weight">1</item>
+  <item name="android:background">@color/transparent</item>
+</style>
+    <style name="contextMenuAnim" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/context_menu_enter</item>
+        <item name="android:windowExitAnimation">@anim/context_menu_exit</item>
+    </style>
+   <style name="AutoScrollTextView">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Theme_MyDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

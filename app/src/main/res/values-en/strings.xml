@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 英文版 -->
+    <string name="app_name">Supoin Inventory</string>
+    <string name="date_settings">time setting</string>
+    <string name="corp_style">Enterprise type</string>
+    <string name="corp_choice">Please select enterprise type</string>
+    <string name="ok">confirm</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="go">go directly</string><!-- 直接进入 -->
+    <string name="resume">reselect</string><!-- 重新选择 -->
+    <string name="back">back</string><!-- 返回 -->
+    <string name="submit">confirm</string>
+    <string name="save">save</string>
+    <string name="cancel">cancel</string>
+    <string name="reselect">reselect</string><!-- 重新选择 -->
+    <string name="hint_text">please enter barcode</string><!-- 请输入条码 -->
+    <string name="exit">System exit</string><!-- 系统退出 -->
+    <string name="pass_admin">Please enter password:</string><!-- 请输入管理员密码： -->
+    <string name="data_select">Please select the updated base data</string><!-- 请选择更新的基础数据 -->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Welcome</string>
+    <string name="bill_no">bill:</string><!-- 单号 -->
+    <string name="unit">Correspondent unit:</string><!-- 往来单位: -->
+    <string name="med_type">Drug type:</string><!-- 药品类型： -->
+    <string name="scan_num">Already scanned:</string><!-- 已扫描： -->
+    <string name="build">new</string><!-- 新建： -->
+    <string name="message">message</string>
+    <string name="communicate">communicate</string><!-- 通讯 -->
+    <string name="allbill">all the godown entry and delivery order</string><!-- 全部出入库单 -->
+    <string name="selelect_ordertype">Please select document type</string><!-- 请选择单据类型 -->
+    <string name="selelect_returncause">Please select the reason for return</string><!-- 请选择退货原因 -->
+    <string name="selelect_papertype">Please select the type of certificate</string><!-- 请选择证件类型 -->
+    <string name="query">search</string>
+    <string name="loading">Loading data,Please wait a moment......</string>
+    <string name="input_bill_number">Please enter number</string><!-- 请输入单号 -->
+    <string name="dialog_title">Prompt</string><!-- 提示 -->
+    <string name="delete_success">Delete success!</string><!-- 删除成功！ -->
+    <string name="delete_fail">Delete failed!</string>
+    <string name="setting">setting</string>
+    <string name="upload">upload</string>
+    <string name="clear">clear</string>
+    
+    <string name="no_choose">no choice</string>
+    <string name="choosed">already choose</string>
+    <string name="cannot_move">non removable</string><!-- 不可移动 -->
+    <string name="notification">operation tips</string><!-- 操作提示  -->
+    <string name="test">This bar code is not available in the basic data.Do you want to input?</string><!-- 基础资料中无此条码,是否录入? -->
+
+    <!-- 升级 -->
+    <string name="system_update">System upgrade</string><!-- 系统升级 -->
+    <string name="update_setting">Upgrade configuration</string><!-- 升级配置 -->
+    <string name="updating">Execute update</string><!-- 执行更新 -->
+    <string name="version">Current version</string><!-- 当前版本号: -->
+    <string name="update_url">Update URL address</string><!-- 更新URL地址: -->
+    <string name="enterprise_id">Enterprise ID</string><!-- 企业ID: -->
+    <string name="update_prompt">Do you want to prompt before downloading the file?</string><!-- 更新下载文件前是否提示 -->
+    <string name="main_app">main program</string><!-- 主程序 -->
+    <string name="main_app_launch">The main program is an application that starts the system after the update is successful</string><!-- 主程序为更新成功后系统启动的应用程序 -->
+    <string name="empty_url">URL address can not be empty!</string><!-- 更新URL地址不能为空！ -->
+    
+    <string name="empty_password_old">Old password can not be empty.</string>
+    <string name="empty_password_new">New password can not be empty.</string>
+    <string name="password_inconformity">Two new passwords are inconsistent.</string><!-- 两新密码不一致。 -->
+    <string name="empty_password_tips">You must select a password prompt.</string><!-- 必须选择密码提示问题。 -->
+    <string name="empty_password_answer">Password hint answer cannot be empty ,in order to easily retrieve the answer</string><!-- 密码提示答案不能为空，以便找回答案。 -->
+    <string name="assword_modification_success">Password modification success.</string><!-- 密码修改成功。 -->
+    <string name="assword_modification_fail">Password modification failed.</string><!-- 密码修改失败。 -->
+    <string name="password_old_error">The old password is incorrect.</string><!-- 旧密码不正确。 -->
+    
+    <!-- 标题 -->
+    <string name="main_menu">Main Menu</string>								<!-- 主菜单 -->
+    <string name="document_scan">Scanning Data List</string>						<!-- 扫描单据 -->
+    <string name="goods_scan">Inventory</string>							<!-- 商品扫描 -->
+    <string name="goods_query">Goods Query</string>							<!-- 单品查询 -->
+    <string name="modified_quantity">Modify Quantity</string>				<!-- 修改数量 -->
+    <string name="summary_statistics">Summary Statistics</string>			<!-- 汇总统计 -->
+    <string name="query_title">&#160;Query</string>							<!-- 查询 -->
+    <string name="scan_sequence_query">Scan Sequence Query</string>			<!-- 扫描顺序查询 -->
+    <string name="basic_data_query">BasicData Query</string>				<!-- 基础数据查询-->
+    <string name="inventory_export">Data Export</string>					<!-- 盘点导出 -->
+    <string name="inventory_export2">Inventory Export</string>					<!-- 盘点导出 -->
+    <string name="export_inventory">Export Data</string>					<!-- 导出盘点-->
+    <string name="delete_data">Delete Data</string>							<!-- 删除数据 -->
+    <string name="data_delete">Data Delete</string>							<!-- 数据删除-->
+    <string name="data_import">Data Import</string>							<!-- 资料导入-->
+    <string name="system_settings">System Settings</string>					<!-- 系统设置 -->
+    <string name="parameter_settings">Parameter Settings</string>			<!-- 参数设置 -->
+    <string name="other_settings">Other Settings</string>					<!-- 其他设置 -->
+    <string name="field_name_settings">FieldName Settings</string>			<!-- 字段名称设置 -->
+    <string name="export_import_settings">Export And Import</string>		<!-- 导入导出 -->
+    <string name="system_update_settings">System Update Settings</string>	<!-- 系统升级 -->
+    <string name="naming_method_select">Naming Method Select</string>	<!-- 命名方式选择-->
+    <string name="export_directory_select">Export Directory Select</string>	<!-- 导出目录选择-->
+    <string name="import_file_select">Import File Select</string>	<!-- 导入文件选择-->
+    <!-- wyz -->
+	<string name="bar_store_in">Put in storage</string>
+	 <string name="tv_store_in_num">instock quantity</string>
+	 <string name="tv_store_out">outstock</string>
+	 <string name="tv_store_out_num">outstock quantity</string>
+	 <string name="instock_no_inventory_data">No instock data!</string><!-- 无数据！ -->
+	<string name="outstock_no_inventory_data">No outstock data!</string><!-- 无数据！ -->
+	<string name="bar_store_out">outstock bill</string>
+	<string name="tv_store_in">instock</string>
+    <!--  弹窗提示 -->
+	<string name="warning">Warning</string><!-- 警告 -->
+	<string name="barCode_not_empty">Bar Code cannot be empty!</string><!-- 条码不能为空 -->
+	<string name="barCode_not_exist">The bar code is not exist!</string><!-- 无此条码 -->
+	<string name="no_inventory_data">No inventory data！</string><!-- 无盘点数据！ -->
+	<string name="no_inventory_detailed_data">No inventory detailed data！</string><!-- 无盘点明细数据！ -->
+	<string name="no_inventoried_goods">The inventoried goods is not exist!</string><!-- 不存在该已盘点货品！ -->
+	<string name="enter_password">Please enter password</string><!-- 请输入管理员密码！ -->
+	<string name="not_modified_empty">Cannot be modified as empty</string><!-- 不能修改为空！ -->
+    <string name="modify_successed">modify successed.</string><!-- 修改成功 -->
+	<string name="error">Error</string><!-- 错误 -->
+	<string name="modify">Modify</string><!-- 修改 -->
+	<string name="file_not_found">Data file not found,&#010;Please put the file in the specified directory!</string><!-- 未找到数据文件，\n请将文件放到指定目录！-->
+	<string name="exit_application">Do you want to exit the application?</string><!-- 是否退出应用程序？-->
+	<string name="modify_password">Modify password</string><!-- 修改密码 -->
+	<string name="enter_quantity">Enter qty</string><!-- 输入数量-->
+	<string name="please_enter_quantity">please enter qty</string><!-- 请输入数量-->
+	<string name="modify_quantity">Modify qty</string><!-- 修改数量-->
+	<string name="modify_quantity_after">After modify qty</string><!-- 修改后数量-->
+	<string name="quantity_not_null">Qty cannot be empty!</string><!-- 数量不能为空!-->
+	<string name="digit_system_one">The decimal digit system is set to only 1 bits, please enter up to 1 bits.</string><!-- 小数点后位数系统设置为只能输入1位，请输入至多1位。-->
+	<string name="digit_system_two">The decimal digit system is set to only 2 bits, please enter up to 2 bits.</string><!-- 小数点后位数系统设置为只能输入2位，请输入至多2位。-->
+	<string name="decimal_error">Decimal input error!</string><!-- 小数输入错误 -->
+	<string name="quantity_error">Qty input error, please check!</string><!-- 数量输入有误，请检查。 -->
+	<string name="password_empty">Password cannot be empty!</string><!-- 密码不能为空。 -->
+	<string name="password_error">Password error, please re-enter!</string><!-- 密码错误，请重新输入 -->
+	<!-- <string name="enter_administrator">Congratulations on enabling super administrator privileges!&#013;&#010;confirm and you will enter the system settings module</string>恭喜您启用超级管理员权限成功。\r\n\r\n确定后进入系统设置模块。 -->
+	<string name="enter_administrator">Get super administrator privileges successfully</string><!-- 恭喜您启用超级管理员权限成功。\r\n\r\n确定后进入系统设置模块。 -->
+	<string name="enter_administrator_scan_good">Congratulations on enabling super administrator privileges!</string>
+	<string name="is_root_directory">This is already the root directory!</string><!-- 已经是根目录! -->
+	<string name="confirm_again">Please confirm that you want to save again!</string><!-- 请再次确认要保存吗？-->
+	<string name="sure_save">Are you sure you want to save the current configuration and hide the associated configuration features?&#013;&#010;Note that the configuration function will not be configured after the configuration is saved, while saving the configuration will delete all the inventory data of the current system.</string><!-- 请确认是否要保存当前配置并隐藏相关的配置功能？\r\n\r\n请注意：保存配置功能后将不能再行配置,同时保存配置时会删除当前系统的所有盘点数据。 -->
+	<string name="scan_settings">scan settings</string><!-- 扫描设置 -->	
+	<string name="please_wait">please wait</string><!-- 请稍等-->	
+	
+	<!-- 长度限制 -->
+	<string name="length_settings">length settings</string><!-- 长度设置-->
+	<string name="length_limit_mode">length limit mode:</string><!-- 长度限制方式：-->
+	<string name="length_equal">Equal to the limit (0 indicates that the item is not set):</string><!-- 等于限制（为0表示不设置该项）：-->
+	<string name="range_limit">Range limit:</string><!-- 范围限制：-->
+	<string name="small_value">Small value:</string><!-- 小值:-->
+	<string name="large_value">Large value:</string><!-- 大值:-->
+	<string name="intercept_save_code">intercept or save barcode:</string><!-- 截取或保留条码：-->
+	<string name="reserved_digit">reserved digit</string><!-- 保留位数-->
+		
+		<!-- 其他设置 -->
+	<string name="setting1">Set system store number:</string><!-- 设置系统门店编号： -->	
+	<string name="setting2">Client name setting:</string><!-- 系统客户名称设置： -->	
+	<string name="setting3">Auto pop up time setting:</string><!-- 自动弹出时间设置： -->	
+	<string name="setting4">Closed WIFI when Inventory:</string><!-- 盘点是否关闭WIFI： -->	
+	<string name="setting5">Delete data management unit:</string><!-- 删除数据管理单位： -->	
+	<string name="setting6">Input password when delete data:</string><!-- 删除数据密码控制： -->	
+	<string name="setting7">Input password when exit system:</string><!-- 退出系统密码控制： -->	
+	<string name="setting8">Password modification:</string><!-- 管理员 密 码 修 改： -->	
+	<string name="setting9">Modify password</string><!-- 修改密码 -->	
+		<!-- 导入导出控制-->
+	<string name="control1">Export table header:</string><!-- 是否导出表头： -->	
+	<string name="control2">Derived scan sequence:</string><!-- 导出扫描顺序： -->	
+	<string name="control3">Export management unit:</string><!-- 导出管理单位： -->	
+	<string name="control4">Export file type:</string><!-- 导出文件类型： -->	
+	<string name="control5">Export merge export:</string><!-- 导出时是否合并导出： -->	
+	<string name="control6">Export single file name:</string><!-- 导出盘点单文件命名方式： -->	
+	<string name="control7">Qty split export:</string><!-- 数量拆分导出： -->	
+	<string name="control8">Data import mode:</string><!-- 资料导入方式： -->	
+	<string name="control9">Export method:</string><!-- 导出方式： -->	
+	<string name="option">option</string><!-- 选项 -->	
+	<string name="display_item_selection">Display item selection</string><!-- 显示项选择 -->	
+	<string name="display_item_note">Note: The maximum item you can choose is five.</string><!-- 请注意：最多只能选择5项 -->	
+	<string name="cancel_all">cancel all</string><!-- 全部取消 -->	
+		<!-- 扫描设置-->
+	<string name="scan1">Bar code verification:</string><!-- 条码验证方式： -->	
+	<string name="scan2">Enable unique barcode:</string><!-- 启用唯一条码： -->	
+	<string name="scan3">Enter qty:</string><!-- 是否输入数量： -->	
+	<string name="scan4">Input password when modify qty:</string><!-- 修改数量密码： -->	
+	<string name="scan5">Scan display mode:</string><!-- 扫描显示方式： -->	
+	<string name="scan6">Internal or external code:</string><!-- 内部或外部码： -->	
+	<string name="scan7">Scan line:</string><!-- 扫描显示行数： -->	
+		<!-- 修改密码-->
+	<string name="old_password">Old password:</string><!-- 旧  密  码： -->	
+	<string name="enter_old_password">please enter old password</string><!-- 请输入旧密码 -->	
+	<string name="new_password">New password:</string><!-- 新  密  码： -->	
+	<string name="enter_new_password">please enter new password</string><!-- 请输入新密码 -->	
+	<string name="confirm_password">Confirm new password:</string><!-- 确认新密码：-->	
+	<string name="confirm_password_again">confirm new password again</string><!-- 再次确认新密码-->	
+	<string name="password_prompt">Password prompt</string><!-- 密码提示-->	
+	<string name="question">Question:</string><!-- 提示问题：-->	
+	<string name="answer">Answer：</string><!-- 答        案：-->	
+	<string name="enter_answer">please enter the answer</string><!-- 请输入答案-->	
+
+		<!-- 扫描单据 -->	
+	<string name="cannot_empty">&#160;cannot be empty!</string><!-- 不能为空。 -->
+	<string name="document_empty"> is null! Do you want to continue with the current inventory receipt?</string><!-- 为空！是否继续添加当前盘点单据？ -->
+	<string name="please_enter">please enter&#160;</string><!-- 请输入 -->
+	<string name="newly_added">New</string><!-- 新增 -->
+	<string name="document_exists">The inventory document already exists!Are you sure you want to continue?</string><!-- 已经存在该盘点单据（确定续盘） -->
+	<string name="document_ruku_exists">The instock document already exists!Are you sure you want to continue?</string><!-- 已经存在该盘点单据（确定续盘） -->
+	<string name="document_chuku_exists">The outstock document already exists!Are you sure you want to continue?</string><!-- 已经存在该盘点单据（确定续盘） -->
+	<!-- 盘点扫描-->
+	<string name="number_tv">number:</string><!-- 编号:-->
+	<string name="location_tv">location:</string><!-- 货位:-->
+	<string name="barcode_tv">Bar code:</string><!-- 条码：-->
+	<string name="cut">cut</string><!-- 消减-->
+	<string name="name_tv">name：</string><!-- 名称：-->
+	<string name="color_tv">color:</string><!-- 颜色：-->
+	<string name="size_id_tv">size ID:</string><!-- 尺码ID：-->
+	<string name="major_tv">major class:</string><!-- 大类：-->
+	<string name="small_tv">small class:</string><!-- 小类：-->
+	<string name="price_tv">price：</string><!-- 价格：-->
+	<string name="size_tv">size:</string><!-- 尺码：-->
+	<string name="stock_tv">stock：</string><!-- 库存：-->
+	<string name="no_tv">no.:</string><!-- 货号：-->
+	<string name="girard_tv">girard:</string><!-- 款号：-->
+	<string name="color_id_tv">color ID:</string><!-- 颜色ID：-->
+	<string name="number_quantity_tv">number qty:</string><!-- 编号数量：-->
+	<string name="location_quantity_tv">location qty:</string><!-- 货位数量：-->
+	<string name="cut_change_tv">cut change</string><!-- 消减切换-->
+	<string name="had_inventory_quantity">Inventory qty:</string><!-- 已盘数量：-->
+	<string name="enter_number">please enter a number</string><!-- 请输入编号-->
+	<string name="enter_location">please enter a location</string><!-- 请输入货位-->
+	<string name="add_number_location">add number</string><!-- 新增编号货位-->
+	<string name="quantity_tv">qty:</string><!-- 数量：-->
+	<string name="display_options">Display options</string><!--显示选项-->
+	
+	<!-- 更新 -->
+	<string name="version1">version</string><!-- 版本-->
+	<string name="versionV">version:V</string><!-- 软件版本：V-->
+	<string name="version_latest">The current version is the latest</string><!-- 当前版本为最新-->
+	<string name="version_new">There is a new version, download the update?</string><!-- 有新版本，是否下载更新？-->
+	<string name="version_downloading">Downloading, please wait a moment...</string><!-- "正在下载，请稍候... -->
+	<string name="version_Checking">Checking version, please wait a moment...</string><!-- "正在检查版本，请稍候... -->
+	<string name="version_downloading_failed">Failed to download file!</string><!-- 下载文件失败！ -->
+	<string name="version_user_has_downloading">User information has been downloaded today.</string><!-- 用户信息今天已下载，是否重新下载？ -->
+	<string name="version_warehouse_has_downloading">The warehouse information has been downloaded today.</string><!-- 库房信息今天已下载，是否重新下载？ -->
+	<string name="not_registered">The inventory is not registered successfully, please try later!</string><!-- 盘点机未注册成功,请稍后尝试！ -->
+	<string name="network_timeout">Network timeout</string><!-- 联网超时 -->
+	<string name="network_failed">Network connection failed, you can continue to try to report</string><!-- 网络连接失败，您可继续尝试上报 -->
+	<string name="version_error">Error:</string><!-- 出错了: -->
+	<string name="version_package_error">The package name to be updated is inconsistent with the package name!</string><!-- 需要更新的包名跟程序包名不一致！-->
+	<string name="version_needs_updated">The system needs to be updated?</string><!-- 系统需要更新，是否现在更新？-->
+	<string name="version_parsing_failed">Parsing file failed!</string><!-- 解析文件失败！-->
+	<string name="version_server_failed">Error analyzing server reply message!</string><!-- 解析服务端应答消息出错！-->
+	<string name="download_failed">Download failed!</string><!-- 下载失败-->
+		<!-- 导入 -->
+	<string name="setting_before_import">Complete import settings before you start import data!</string><!-- 完成导入设置才可以导入资料！ -->
+	<string name="configure_import_items">Please configure import items!</string><!-- 请先配置导入项。 -->
+	<string name="exception_when_underlying_data">An exception occurred when processing the underlying data table!</string><!-- 预处理基础资料表时发生异常。 -->
+	<string name="import_data_success">Import basic data successfully!</string><!-- 导入基础资料成功！ -->
+	<string name="data_not_found">Data file not found, please put the file in the specified directory!</string><!-- 未找到数据文件，请将文件放到指定目录！-->
+	<string name="import_error">Import error, the import of basic information has a duplicate record!</string><!-- 导入出错，导入基础资料有重复记录。-->
+	<string name="import_error_columns">The number of imported columns is not consistent with the number of columns in the system settings! Import failed!</string><!-- 导入列数与系统设置列数不一致！导入失败！-->
+	<string name="import_error_content">Import error, please check whether the file format or data content is correct.</string><!-- 导入出错，请检查文件格式或数据内容等是否正确。-->
+	<string name="import_data">Importing basic data，please wait!  </string><!-- 正在导入数据,-->
+	<string name="not_configured">You are not configured yet, only after the configuration has been completed and saved to perform the scan.</string><!-- 您还未配置完成，只有配置完成并保存后才能进行扫描相关工作。-->
+	<string name="import_basic_data">Do you want to import basic data?</string><!-- 是否要导入基础资料? -->
+	<string name="offline_import">Offline import</string><!-- 离线本地导入 -->
+	<string name="import_btn">Import</string><!-- 导入 -->
+	<string name="scan_display">Scan Display</string><!-- 扫描显示-->
+	<string name="import_export_control">Import export control</string><!-- 导入导出控制-->
+	<string name="column_number">column:</string><!-- 列   数：-->
+	<string name="separator">separator:</string><!-- 分隔符:-->
+	<string name="modifier">modifier:</string><!-- 修饰符：-->
+	<string name="including_quantity">including qty</string><!-- 包括数量-->
+	<string name="header">header:</string><!-- 表头：-->
+		<!-- 导出 -->
+	<string name="select_all">Select All</string><!-- 全选 --> 
+	<string name="export">Export</string><!-- 导出 --> 
+	<string name="deselect_all">Deselect All</string><!-- 取消全选 -->
+	<string name="export_not_saved">Export settings are not saved, save export settings frist!</string><!-- 导出设置未保存,请保存导出设置!-->
+	<string name="no_data_available">No data available!</string><!-- 没有可选的数据-->
+	<string name="select_one_record">select at least one record!</string><!-- 至少勾选一条记录!-->
+	<string name="no_exportable_data">No exportable data!</string><!-- 没有可导出的数据!-->
+	<string name="multiselect_no_merge">The scanning sequence derived has been set,Multiselect can not merge export!</string><!-- 已设置扫描顺序导出，多选(除全选外)不能合并导出！-->
+	<string name="export_data">Do you want to export the selected inventory data?</string><!-- 是否要导出所选盘点资料?-->
+	<string name="export_data_success">Data export success!</string><!-- 数据导出成功！-->
+	<string name="export_data_failed">Data export failed,reason:</string><!-- 数据导出失败,原因：-->
+	<string name="export_file_prefix">Export file prefix:</string><!-- 导出文件前缀：-->
+	<string name="naming_of_merge_export">The default naming of merge export:prefix_merge export_date and time</string><!-- 合并导出默认命名方式：前缀_合并导出_年月日时分-->
+	<string name="naming_of_split_export">The default naming of split export:prefix_number_+(_position number)_date and time</string><!-- 拆分导出默认命名方式：前缀_编号+(_货位号)_年月日时分-->
+    <string name="exporting_inventory">Exporting inventory data, please wait.</string>
+    <string name="exporting_instock">Exporting instock data, please wait.</string>
+    <string name="exporting_outstock">Exporting outstock data, please wait.</string>
+		<!-- 数据删除 -->
+    <string name="delete_data_success">Delete data successfully!</string><!-- 数据删除成功! -->
+    <string name="delete_failed">Delete failed!</string><!-- 删除失败。 -->
+    <string name="delete_data_failed">An error occurred while deleting, please check or contact your vendor!</string><!-- 删除时出现错误，请检查或联系您的供应商。 -->
+    <string name="no_data_delete">No data can be deleted!</string><!-- 没有可删除的数据 -->
+    <string name="delete_data_exception">An exception occurred while deleting data!</string><!-- 删除数据时发生异常! -->
+    <string name="delete_all_data_exception">An exception occurred while deleting all data!</string><!-- 删除全部数据时发生异常! -->
+    <string name="delete_confirm">Do you want to delete the data?&#013;&#010;Note: It will be deleted permanently and can not be restored!</string><!-- 是否要删除数据？\r\n\r\n请注意：删除为永久删除，删除的数据将不可恢复! -->
+    <string name="delete">Delete</string><!-- 删除 -->
+    <string name="all_delete">All delete</string><!-- 全部删除 -->
+  	<!--  商品扫描 -->
+  	<string name="system_import_error">System import configuration error！</string><!-- 系统导入系统数据配置错误 -->	
+  	<string name="no_goods_query">Do not support to the goods query, please contact the operator！</string><!-- 不支持查询商品，请联系运营商！ -->	
+  	<string name="no_goods_scan">No goods, please scan！</string><!-- 没有商品,请扫描 -->	
+  	<string name="internal_scan_set">When scanning the internal code, set &#142;Internal code&#142; in the settings！</string><!-- 扫描内部码时,请在设置中设置\"内部码\"-->	
+  	<string name="no_unique_barcode">There is no unique bar code.</string><!-- 不存在所消减的唯一条码。-->	
+  	<string name="barcode_repeat">Barcode repeat.</string><!-- 条码重复!-->	
+  	<string name="code_not_match_setting">The length of the bar code does not match the setting range!</string><!-- 条码长度与设置范围不符!-->	
+  	<string name="code_not_in_data">the barcode is not in the basic data!Whether the input bar code?</string><!-- 基础资料中无此条码，是否录入？-->	
+  	<string name="inventory_failed_check">Inventory count processing failed, please check or contact your supplier!</string><!-- 盘点数量处理失败，请检查或联系您的供应商！-->	
+  	<string name="inventory_code_length">Bar code length should be less than the length of the bar code!</string><!-- 条码截取长度应小于条码长度！-->	
+  	
+    <!-- Toast提示 -->
+    <string name="no_pertinent_data">No pertinent data！</string><!-- 没有相关数据！ -->
+    <string name="current_barcode_no__data">Current barcode no data！</string><!-- 没有相关数据！ -->
+    <string name="or">or</string><!-- 没有相关数据！ -->
+    <string name="select_import_mode">Please select import mode</string><!-- 请选择导入方式 -->
+    <string name="loading_data">The original data is loading,please wait a moment...</string><!-- 正在加载原单数据，请稍等... -->
+    <string name="load_success">Load success!</string><!-- 加载成功 -->
+    <string name="load_failed">Load failed!</string><!-- 加载失败-->
+    <string name="last_data">Local data last updated:</string><!-- 本地数据最后更新的时间：-->
+    <!-- ProgressDialog提示 -->
+    <string name="deleting_data">Deleting data, please wait a moment...</string><!-- "正在删除，请稍候..." -->
+    <string name="saved_success">Settings saved successfully!</string><!-- 设置保存成功 -->
+    <string name="enter_prefix">Please enter file name prefix!</string><!-- 请输入文件前缀 -->
+    <string name="have_selected">You have selected</string><!-- 选择了 -->
+    
+   <!--  编辑框内的提示 -->
+   <string name="please_select">please select&#160;</string><!-- 请选择 -->
+   <string name="quantity">Qty:</string><!-- 数量 -->
+   
+   <!-- 布局 -->
+   <string name="style_code_length">Style code length</string><!-- 款式码位长 -->
+   <string name="artNo_code_length">Item No. and code length</string><!-- 货号、码位长 -->
+   <string name="style_code_separation">Style code separation</string><!-- 款式码分隔 -->
+   <string name="artNo_code_separation">Item No. code separation</string><!-- 货号、码分隔 -->
+   <string name="bar_code">bar code</string><!-- 条码 -->
+   <string name="number">Number:</string><!-- 编号: -->
+   <string name="select_number">Please select number</string><!-- 请选择编号 -->
+   <string name="detail">Detail</string><!-- 明细 -->
+   <string name="location">Location:</string><!-- 货位: -->
+   <string name="select_location">Please select a location</string><!-- 请选择货位 -->
+   <string name="bar_code_0">bar code</string><!-- 条码: -->
+   <string name="if_negative">(If it is negative, it is the result of changing a large number to a decimal)</string><!-- (若为负数，是由大数改为小数的结果) -->
+   <string name="select_query_mode">Please select query mode:</string><!-- 请选择查询方式： -->
+   <string name="number_query">Number query</string><!-- 编号查询 -->
+   <string name="location_query">Location query</string><!-- 货位查询 -->
+       
+    <!-- fragment -->
+    <string name="no_iv">no</string><!-- 无 -->
+    <string name="yes_iv">Yes</string><!-- 有 -->
+    <string name="double_marks">double quotation marks</string><!-- 双引号 -->
+    <string name="single_marks">single quotation marks</string><!-- 单引号 -->
+    <string name="export1">Select export item settings</string><!-- 请选择导出项设置 -->
+    <string name="export2">The number of selected columns is inconsistent with the number of entries</string><!-- 选择列数与导出项数量不一致 -->
+    <string name="export3">Export settings saved successfully</string><!-- 导出设置保存成功 -->
+    
+ 	<!--    导出导出设置fragement -->
+    <string name="export4">Yes</string><!-- 导出表头 -->
+    <string name="export5">No</string><!-- 不导出表头 -->
+    <string name="export6">No</string><!-- 不导出-->
+    <string name="export7">Yes</string><!-- 导出 -->
+    <string name="export8">export by number</string><!-- 按编号导出 -->
+    <string name="export9">export by numbe and location</string><!-- 按编号，货位导出 -->
+    <string name="export10">text file</string><!-- txt文本文件 -->
+    <string name="export11">csv file</string><!-- csv文件（以逗号分隔） -->
+    <string name="export12">Yes</string><!-- 合并导出 -->
+    <string name="export13">No</string><!-- 不合并（分开导出 ）-->
+    <string name="export14">not split</string><!-- 不拆分 -->
+    <string name="export15">split</string><!-- 拆分 -->
+    <string name="export16">full volume import</string><!-- 全量导入（覆盖导入） -->
+    <string name="export17">incremental import</string><!-- 增量导入 -->
+    <string name="export18">Export settings is not saved successfully</string><!-- 导出设置没保存成功 -->
+    <string name="export19">You currently set the export file type to CSV, but the export delimiter is not a comma, do you want to save it?</string><!-- 您当前设置导出文件类型为csv，但导出 分隔符不是逗号，继续保存吗？-->
+    <string name="export20">&#013;&#010;Note: when the export file type is CSV, only when the separator is a comma, the export file can be opened correctly on the computer Excel.</string><!-- \r\n\r\n请注意：当导出 文件类型为csv时，只有当分隔符是逗号时，导出文件才能正确地在电脑上的Excel里面打开。 -->
+    <string name="export21">Do you want to change the export delimiter to a comma?</string><!-- 是否把导出分隔符改为逗号（，）？ -->
+    <string name="export22">Tab has been changed to comma (,) and the settings saved successfully</string><!-- 制表符已改为逗号（，）及设置保存成功 -->
+    <string name="export23">cumulative export</string><!-- 累加导出 -->
+    <string name="export24">progressive export</string><!-- 逐行导出 -->
+    <string name="export25">Excel</string>
+    <!--    导入设置fragement -->
+    <string name="import1">Select import item settings</string><!-- 请选择导入项设置 -->
+    <string name="import2">The number of selected columns is inconsistent with the number of entries</string><!-- 选择列数与导入项数量不一致 -->
+    <string name="import3">Import settings saved successfully</string><!-- 导入设置保存成功 -->
+    
+    <!--   长度fragement  -->
+    <string name="length1">unlimited length</string><!-- 不限制长度 -->
+    <string name="length2">equal limit</string><!-- 等于限制 -->
+    <string name="length3">range limit</string><!-- 范围限制-->
+    <string name="length4">Not handle</string><!-- 不处理 -->
+    <string name="length5">Delete the data information from last part</string><!-- 截去条码后面位数 -->
+    <string name="length6">Delete the data information from front part</string><!-- 截去条码前面位数 -->
+    <string name="length7">Save the data information from last part</string><!-- 保留条码后面位数-->
+    <string name="length8">Save the data information from front part</string><!-- 保留条码前面位数 -->
+    <string name="length9">intercept bits:</string><!-- 截取位数: -->
+    <string name="length10">reserved digit:</string><!-- 保留位数: -->
+    <string name="length11">The length can not be empty, so it will not be scanned, please check.</string><!-- 长度不能为空，这样会无法进行扫描,请确认检查。 -->
+    <string name="length12">All lengths can not be zero at the same time, so it will not be scanned</string><!-- 所有长度不能同时都为零，这样会无法进行扫描,请确认检查 -->
+    <string name="length13">Small or large values can not be empty, so it will not be scanned, please confirm the check.</string><!-- 小值或者大值不能为空，这样会无法进行扫描,请确认检查。 -->
+    <string name="length14">Small values can not be greater than the large value, so it will not be scanned, please confirm the check.</string><!-- 小值不能大于大值，这样会无法进行扫描,请确认检查。 -->
+    <string name="length15">Small and large values can not be 0 at the same time, this will not be scanned, please confirm the inspection.</string><!-- 小值和大值不能同时为0，这样会无法进行扫描,请确认检查。 -->
+    <string name="length16">The number of reserved bits can not be empty, so it will not be scanned.</string><!-- 保留位数不能为空，这样会无法进行扫描,请确认检查。 -->
+    <string name="length17">Select the length of the interception, the interception length must be greater than 0, please confirm the inspection.</string><!-- 选择了截取长度，截取长度必须大于0,请确认检查。 -->
+    <string name="length18">&#013;&#010;If you do not need to intercept, select the first item</string><!-- \r\n\r\n如果不需要截取，请选择第一项“不处理”。 -->
+    <string name="length19">Select the length of the reservation, the retention length must be greater than 0, please confirm the inspection.</string><!-- 选择了保留长度，保留长度必须大于0,请确认检查。 -->
+    <string name="length20">&#013;&#010;If you do not need to retain, select the first item</string><!-- \r\n\r\n如果不需要保留，请选择第一项“不处理”。 -->
+    <string name="length21">Save this page configuration successfully.</string><!-- 保存该页配置成功。 -->
+    <!--   其他设置fragement  -->
+    <string name="other1">No</string><!-- 不弹出 -->
+    <string name="other2">Yes</string><!-- 弹出 -->
+    <string name="other3">yes</string><!-- 是 -->
+    <string name="other4">no</string><!-- 否 -->
+    <string name="other5">delete by number</string><!-- 按编号删除 -->
+    <string name="other6">delete by number and location </string><!-- 按编号，货位删除 -->
+    <string name="other7">No</string><!-- 不需要 -->
+    <string name="other8">Yes</string><!-- 需要 -->
+    <string name="other9">No</string><!-- 不控制 -->
+    <string name="other10">Yes</string><!-- 控制 -->
+    
+    <!--   扫描显示fragement  -->
+    <string name="display1">Operation tips</string><!-- 操作提示 -->
+    <string name="display2">Can not choose the number and style at the same time, please re setting</string><!-- 不能同时选择货号和款式，请重新设置-->
+    <string name="display3">The selected item cannot be greater than 5</string><!-- 所选项目不能大于5 -->
+    <string name="display4">Select at least one item</string><!-- 至少选择一项项目-->
+    
+    <!--  ScanSettingFragment  -->
+    <string name="ssetting1">No</string><!-- 不验证 -->
+    <string name="ssetting2">Yes</string><!-- 验证 -->
+    <string name="ssetting3">Prompt</string><!-- 提示 -->
+    <string name="ssetting4">No</string><!-- 不启用 -->
+    <string name="ssetting5">Yes</string><!-- 启用 -->
+    <string name="ssetting6">Allow</string><!-- 输入 -->
+    <string name="ssetting7">Forbid</string><!-- 不输入 -->
+    <string name="ssetting8">No</string><!-- 不需要 -->
+    <string name="ssetting9">Yes</string><!-- 需要 -->
+    <string name="ssetting10">cumulative display</string><!-- 累加显示 -->
+    <string name="ssetting11">progressive display</string><!-- 逐行显示 -->
+    <string name="ssetting12">internal code</string><!-- 内部码 -->
+    <string name="ssetting13">external code</string><!-- 外部码 -->
+    <string name="ssetting14">the number of rows displayed cannot be empty. Please check the number.</string><!-- 显示行数不能为空,请确认检查。 -->
+    <string name="ssetting15">show the number of lines should not be less than 1.</string><!-- 显示行数不能小于1,请确认检查。 -->
+    <string name="ssetting16">note: when you enable a unique code, you cannot enable the "number of input" options.</string><!-- 请注意：启用唯一码时不能启用“是否输入数量”的选项。 -->
+    <string name="ssetting17">the number of scan lines cannot be set to null</string><!-- 扫描行数不能设置为空 -->
+    
+    <string name="ImportStr">external code,internal code,Item No.,style,name,color ID,color,size ID,size,major class,small class,stock,price</string><!-- 外部码,内部码,货号,款式,名称,颜色ID,颜色,尺码ID,尺码,大类,小类,库存,价格-->
+    <string name="ExportStr">store number,Number,Location,bar code,Item No.,style,name,color ID,color,size ID,size,major class,small class,stock,price,quantity,time</string><!-- 门店编号,编号,货位,条码,货号,款式,名称,颜色ID,颜色,尺码ID,尺码,大类,小类,库存,价格,数量,时间 -->
+    <string name="delet_by">delete by&#160;</string><!-- 按 删除 -->
+    <string name="export_by">Export by&#160;</string><!-- 按导出 -->
+    <string name="importDecaration2">no,double quotation marks</string><!-- 无,双引号-->
+    <string name="importDecaration">no,double quotation marks</string><!-- 无,双引号-->
+    <string name="separatorStr">tab(space(,(|(#(;($(~</string><!-- 制表符(空格(,(|(#(;($(~-->
+    
+    <string name="select_query_type">please select query type:</string><!-- 请选择查询类型： -->
+    <string name="outstock_export">outstock export</string><!-- 出库导出 -->
+    <string name="instock_export">instock export</string><!-- 入库导出 -->
+    <string name="inventory_delete">inventory delete</string><!-- 盘点删除-->
+    <string name="outstock_delete">outstock delete</string><!-- 出库删除-->
+    <string name="instock_delete">instock delete</string><!-- 入库删除-->
+    <string name="inventory_display">Inventory</string><!-- 盘点 -->
+    <string name="outstock_display">Outstock</string><!-- 出库 -->
+    <string name="instock_display">Instock</string><!-- 入库-->
+    
+     <string name="query_inventory">Inventory Query</string><!-- 盘点查询 -->
+    <string name="query_outstock">Outstock Query</string><!-- 出库查询 -->
+    <string name="query_instock">Instock Query</string><!-- 入库查询 -->
+    <string name="instock_sacn">Instock Scan</string><!-- 入库扫描 -->
+    <string name="outstock_sacn">Outstock Scan</string><!-- 出库扫描 -->
+    
+     <string name="filename_inventory">inventory naming patterns</string><!--盘点命名方式-->
+    <string name="filename_instock">instock naming patterns</string><!-- 入库命名方式-->
+    <string name="filename_outstock">outstock naming patterns</string><!--出库命名方式 -->
+    
+      <string name="bill_inventory">Inventory Bill</string>
+    <string name="bill_instock">Instock Bill</string>
+    <string name="bill_outstock">bill_outstock Bill</string>
+       <!-- 扫描模式设置   20171128-->
+	<string name="pattern_settings">Scanning Mode</string><!-- 扫描模式 -->
+	<string name="pattern1">Scanning mode：</string><!-- 扫描模式： -->	
+	<string name="pattern2">Barcode Mode</string><!-- 条码模式 -->	
+	<string name="pattern3">RFID Mode</string><!-- RFID模式-->
+	<string name="pattern4">Current mode：</string><!-- 当前模式：-->
+		<string name="pattern5">Barcode Mode.</string><!-- RFID-->
+	<string name="pattern6">RFID Mode.</string><!-- RFID-->
+	<string name="RFID_NOT_EXIST">There is a RFID label that does not exist within the underlying data!Please rescan！</string><!-- 存在不在基础资料内的RFID标签!请重新扫描 -->
+	<string name="operate_check">The data is being processed. Please wait a moment</string><!-- 正在处理数据,请稍候：-->
+	<string name="RFID_HAS_EXIST">The RFID tag has already existed</string><!-- 该RFID标签已存在-->
+	
+	<string name="import_and_export_instructions">Note:You can move up and down lists on the left side,and the right side drags the position of the field.</string>
+    <string name="Input_code_bad">Import error</string>
+
+    <!-- z字段名称设置   20181017-->
+    <string name="old_field">old field:</string>
+    <string name="new_field">new field:</string>
+    <string name="enter_new_field">please enter new field</string>
+    <string name="has_exists_field">The name of the field already exists, please retype it.</string>
+    <string name="import_base_field">external code,internal code,</string>
+</resources>

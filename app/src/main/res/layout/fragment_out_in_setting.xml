@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+<ScrollView 
+      android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_63"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/control1"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/textsize22" />
+
+            <Spinner
+                android:id="@+id/spinner_export_header"
+                style="@style/style_spinner" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_63"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/control2"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/textsize22" />
+
+            <Spinner
+                android:id="@+id/spinner_export_order"
+                style="@style/style_spinner" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="@dimen/height_63"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/control3"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/textsize22" />
+
+            <Spinner
+                android:id="@+id/spinner_export_type"
+                style="@style/style_spinner" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="@dimen/height_63"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/control4"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/textsize22" />
+
+            <Spinner
+                android:id="@+id/spinner_export_file"
+                style="@style/style_spinner" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="@dimen/height_63"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/control9"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/textsize22" />
+
+            <Spinner
+                android:id="@+id/spinner_export_mode"
+                style="@style/style_spinner" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/view" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="@dimen/height_63"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/control5"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/textsize22" />
+
+            <Spinner
+                android:id="@+id/spinner_export_merge"
+                style="@style/style_spinner" 
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/view" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+          android:layout_height="@dimen/height_63"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dip">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/control6"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/textsize22" />
+            <Button
+                android:id="@+id/btn_export_name"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="5dip"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="20dip"
+                android:textSize="30sp"
+                android:background="@color/title_bg"
+                android:text="..." />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/view" />
+
+        <LinearLayout
+            android:id="@+id/ll_split_and_way"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_63"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/control7"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/textsize22" />
+
+                <Spinner
+                    android:id="@+id/spinner_export_num_split"
+                    style="@style/style_spinner" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/view" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_63"
+            android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dip" >
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="5dip"
+                    android:paddingTop="5dip"
+                    android:text="@string/control8"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_export_way"
+                    style="@style/style_spinner" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/view" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+ </LinearLayout>
+ 
+    </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_90"
+            android:background="@color/title_bg"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/btn_select_yellow"
+                android:paddingBottom="10dip"
+                android:paddingLeft="30dip"
+                android:paddingRight="30dip"
+                android:paddingTop="10dip"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize24" />
+       
+    </LinearLayout>
+
+</LinearLayout>
